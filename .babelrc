@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react",
+    "env"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-object-rest-spread",
+    ["direct-import", [
+      "material-ui",
+      "react-router",
+      "react-router-dom",
+      "material-ui-icons"
+    ]]
+  ]
+}

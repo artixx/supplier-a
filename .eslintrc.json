@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "comma-dangle": ["error", "always-multiline"],
+    "capitalized-comments": ["warn"],
+    "object-curly-spacing": ["error", "always"],
+    "spaced-comment": "off",
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2]
+  },
+  "parser": "babel-eslint",
+  "extends": ["xo", "xo-react"]
+}
